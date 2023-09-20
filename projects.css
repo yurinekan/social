@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    top: 16;
+}
+
+#back-button:hover {
+    color: #9cbff7;
+}
+
+
+#projects {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    max-width: 900px;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ecdcd2;
+    transition: color .3s;
+}
+
+.project-link {
+    display: flex;
+    flex-direction: column;
+    color: #ecdcd2;
+    padding: 16px;
+    min-width: 250px;
+    background-color: rgba(16 18 27 / 40%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 14px;
+    transition: 0.3s;
+}
+.project-link > p {
+    margin-top: 8px;
+    max-width: 250px;
+}
+.project-link:hover {
+    background-color: rgba(16, 18, 27, 0.71);
+}
+
+@media only screen and (max-width: 800px) {
+    #projects {
+        flex-direction: column;
+    }
+}
