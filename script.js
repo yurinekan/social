@@ -8,7 +8,7 @@ const getTitle = () => {
         document.title = "Boa tarde!"
     } else {
         document.title = "Boa noite!"
-    }
+    } 
 }
 
 getTitle()
