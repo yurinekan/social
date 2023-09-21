@@ -1,6 +1,6 @@
-header {
+#header {
     position: fixed;
-    top: 16;
+    top: 16px;
 }
 
 #back-button:hover {
