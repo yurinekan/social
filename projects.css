@@ -16,6 +16,7 @@
     overflow: auto;
     flex-wrap: wrap;
     max-height: 80vh;
+    padding-bottom: 32px;
 }
 
 a {
