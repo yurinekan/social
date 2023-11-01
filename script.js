@@ -3,11 +3,11 @@ const getTitle = () => {
     var curHr = today.getHours()
 
     if (curHr < 12) {
-      document.title = "Bom dia!"
+      document.title = "Oi, bom dia!"
     } else if (curHr < 18) {
-        document.title = "Boa tarde!"
+        document.title = "Olá, boa tarde!"
     } else {
-        document.title = "Boa noite!"
+        document.title = "Opa, boa noite!"
     } 
 }
 
